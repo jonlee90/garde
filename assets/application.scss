@@ -79,7 +79,7 @@ a {
 
 @font-face {
   font-family: "HelveticaNeueLTProBold";
-  src: url('//cdn.shopify.com/s/files/1/0549/9423/9707/t/3/assets/HelveticaNeueLTPro-Bd.woff2?145') format("woff2");
+  src: url('//cdn.shopify.com/s/files/1/0549/9423/9707/t/3/assets/HelveticaNeueLTPro-Bd.woff2?v=16991196008057895303') format("woff2");
 }
 
 @mixin phone {
@@ -301,11 +301,11 @@ img, picture, svg {
 }
 
 .swiper-button-prev {
-  cursor: url('//cdn.shopify.com/s/files/1/0549/9423/9707/t/3/assets/cursor-arrow-left.svg?145') 15 8, auto;
+  cursor: url('//cdn.shopify.com/s/files/1/0549/9423/9707/t/3/assets/cursor-arrow-left.svg?v=11716768204810476144') 15 8, auto;
 }
 
 .swiper-button-next {
-  cursor: url('//cdn.shopify.com/s/files/1/0549/9423/9707/t/3/assets/cursor-arrow-right.svg?145') 15 8, auto;
+  cursor: url('//cdn.shopify.com/s/files/1/0549/9423/9707/t/3/assets/cursor-arrow-right.svg?v=17173753631363435447') 15 8, auto;
 }
 
 .swiper-button-prev, .swiper-button-next {
@@ -410,7 +410,7 @@ img, picture, svg {
   }
 
   .swiper-button-next::before {
-    background: url('//cdn.shopify.com/s/files/1/0549/9423/9707/t/3/assets/cursor-arrow-right.svg?145') 24px center no-repeat;
+    background: url('//cdn.shopify.com/s/files/1/0549/9423/9707/t/3/assets/cursor-arrow-right.svg?v=17173753631363435447') 24px center no-repeat;
     content: "";
     opacity: 0.25;
     width: 100%;
@@ -423,7 +423,7 @@ img, picture, svg {
   }
 
   .swiper-button-prev::before {
-    background: url('//cdn.shopify.com/s/files/1/0549/9423/9707/t/3/assets/cursor-arrow-left.svg?145') 24px center no-repeat;
+    background: url('//cdn.shopify.com/s/files/1/0549/9423/9707/t/3/assets/cursor-arrow-left.svg?v=11716768204810476144') 24px center no-repeat;
     content: "";
     opacity: 0.25;
     width: 100%;
