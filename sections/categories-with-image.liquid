@@ -1,8 +1,9 @@
 <div class="categories-with-image section">
   {% for block in section.blocks %}
     <div>
+      <h5>{{ block.settings.collection.title }}</h5>
       <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.title }}">
-      <a href="{{ block.settings.collection }}">{{ block.settings.title }}</a>
+      <a href="{{ block.settings.collection.url | img_url }}">{{ block.settings.title }}</a>
     </div>  
   {% endfor %}
 </div>
