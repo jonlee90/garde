@@ -1,28 +1,27 @@
 <div class="categories-with-image section">
-  {% for block in section.blocks %}
-    <div>
-      <h5>{{ block.settings.collection.title }}</h5>
-      <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.title }}">
-      <a href="{{ block.settings.collection.url | img_url }}">{{ block.settings.title }}</a>
-    </div>  
-  {% endfor %}
+  <div class="category-container">
+    {% for block in section.blocks %}
+      <a class="category-link" href="{{ block.settings.collection.url | img_url }}"></a>
+        <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.title }}">
+        <span>{% if block.settings.title %} 
+              {{ block.settings.title }}
+            {% else %}
+              {{ block.settings.collection.title }}
+            {% endif %}
+        </span>
+      </a>
+    {% endfor %}
+  </div>  
 </div>
 
 {% schema %}
 {
   "name": "Categories with Image",
-  "settings": [
-    {
-      "type": "text",
-      "id": "title",
-      "label": "Heading",
-      "default": "Image with Text"
-    }
-  ],
+  "max_blocks": 4,
   "blocks": [
     {
-      "name": "categories",
-      "type": "collection",
+      "name": "Categories",
+      "type": "category",
       "settings": [
         {
           "type": "collection",
@@ -37,7 +36,8 @@
         {
           "type": "text",
           "id": "title",
-          "label": "Title"
+          "label": "Title",
+          "info": "Optional"
         }
       ]
     }
@@ -45,7 +45,21 @@
   "presets": [
     {
       "name": "Categories with Image",
-      "category": "Image"
+      "category": "Image",
+      "blocks": [
+        {
+          "type": "category"
+        },
+        {
+          "type": "category"
+        },
+        {
+          "type": "category"
+        },
+        {
+          "type": "category"
+        }
+      ]
     }
   ]
 }
