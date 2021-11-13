@@ -1,58 +1,30 @@
 {
   "sections": {
-    "1636671369648072f0": {
+    "hero": {
       "type": "hero",
+      "settings": {
+      }
+    },
+    "categories-with-image": {
+      "type": "categories-with-image",
       "settings": {
       }
     },
     "rich_text": {
       "type": "rich-text",
       "settings": {
-        "title": "Section Heading",
-        "text": "<p>Write your description here<\/p>"
       }
     },
-    "163667138016660820": {
+    "image-with-text": {
       "type": "image-with-text",
       "settings": {
-        "title": "Image with Text",
-        "text": "<p>Write your description here<\/p>",
-        "reverse": false
-      }
-    },
-    "16368462863a3aa779": {
-      "type": "categories-with-image",
-      "blocks": {
-        "0f14baa3-4cf9-4a07-a642-10d27a5c0f9b": {
-          "type": "collection",
-          "settings": {
-            "collection": "camping-gear",
-            "image": "shopify:\/\/shop_images\/Garde-1.jpg",
-            "title": "Yes"
-          }
-        },
-        "682f0fed-76aa-4b5b-8e5a-16c214c6b362": {
-          "type": "collection",
-          "settings": {
-            "collection": "golf-gear",
-            "image": "shopify:\/\/shop_images\/beanie.jpg",
-            "title": "Head"
-          }
-        }
-      },
-      "block_order": [
-        "0f14baa3-4cf9-4a07-a642-10d27a5c0f9b",
-        "682f0fed-76aa-4b5b-8e5a-16c214c6b362"
-      ],
-      "settings": {
-        "title": "Image with Text"
       }
     }
   },
   "order": [
-    "1636671369648072f0",
+    "hero",
+    "categories-with-image",
     "rich_text",
-    "163667138016660820",
-    "16368462863a3aa779"
+    "image-with-text"
   ]
 }
