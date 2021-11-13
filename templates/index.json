@@ -30,10 +30,19 @@
             "image": "shopify:\/\/shop_images\/Garde-1.jpg",
             "title": "Yes"
           }
+        },
+        "682f0fed-76aa-4b5b-8e5a-16c214c6b362": {
+          "type": "collection",
+          "settings": {
+            "collection": "golf-gear",
+            "image": "shopify:\/\/shop_images\/beanie.jpg",
+            "title": "Head"
+          }
         }
       },
       "block_order": [
-        "0f14baa3-4cf9-4a07-a642-10d27a5c0f9b"
+        "0f14baa3-4cf9-4a07-a642-10d27a5c0f9b",
+        "682f0fed-76aa-4b5b-8e5a-16c214c6b362"
       ],
       "settings": {
         "title": "Image with Text"
