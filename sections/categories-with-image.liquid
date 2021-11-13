@@ -1,7 +1,7 @@
 <div class="categories-with-image section">
   {% for block in section.blocks %}
     <div>
-      <img src="{{ block.settings.category-image | img_url: 'master' }}" alt="{{ block.settings.title }}">
+      <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.title }}">
       <a href="{{ block.settings.collection }}">{{ block.settings.title }}</a>
     </div>  
   {% endfor %}
@@ -12,27 +12,10 @@
   "name": "Categories with Image",
   "settings": [
     {
-      "type": "image_picker",
-      "id": "image",
-      "label": "Image"
-    },
-    {
       "type": "text",
       "id": "title",
       "label": "Heading",
       "default": "Image with Text"
-    },
-    {
-      "type": "richtext",
-      "id": "text",
-      "label": "Description",
-      "default": "<p>Write your description here</p>"
-    },
-    {
-      "type": "checkbox",
-      "id": "reverse",
-      "label": "Reverse Image Position",
-      "default": false
     }
   ],
   "blocks": [
@@ -47,7 +30,7 @@
         },
         {
           "type": "image_picker",
-          "id": "category-image",
+          "id": "image",
           "label": "Category Image"
         },
         {
