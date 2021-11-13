@@ -7,35 +7,17 @@
     },
     "categories-with-image": {
       "type": "categories-with-image",
-      "blocks": {
-        "9c51fcf0-377b-4812-ac1f-c3704d8531d8": {
-          "type": "category",
-          "settings": {
-            "collection": "camping-gear",
-            "image": "shopify:\/\/shop_images\/beanie.jpg",
-            "title": ""
-          }
-        }
-      },
-      "block_order": [
-        "9c51fcf0-377b-4812-ac1f-c3704d8531d8"
-      ],
       "settings": {
       }
     },
     "rich_text": {
       "type": "rich-text",
       "settings": {
-        "title": "Section Heading",
-        "text": "<p>Write your description here<\/p>"
       }
     },
     "image-with-text": {
       "type": "image-with-text",
       "settings": {
-        "title": "Image with Text",
-        "text": "<p>Write your description here<\/p>",
-        "reverse": false
       }
     }
   },
