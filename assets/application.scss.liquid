@@ -922,14 +922,13 @@ img, picture, svg {
   justify-content: space-between;
 } 
 .category-container {
-  position: relative;
-}
-.category-link{
   max-width: 25%;
 
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.category-link{
 
   img {
     width: 50%;
@@ -937,7 +936,6 @@ img, picture, svg {
 
   span {
     position: absolute;
-    margin: 230px 150px 0 0;
   }
   span:after {
     content: " ";
@@ -952,6 +950,6 @@ img, picture, svg {
   }
 } 
 
-.category-link:hover span:after {
+.category-container:hover span:after {
   width: 100%;
 }

@@ -7,62 +7,17 @@
     },
     "category-list": {
       "type": "category-list",
-      "blocks": {
-        "6caa338f-fc9c-4623-ba4d-06b24485d56d": {
-          "type": "category",
-          "settings": {
-            "collection": "camping-gear",
-            "image": "shopify:\/\/shop_images\/camping.jpg",
-            "title": ""
-          }
-        },
-        "943dc460-92c1-4946-a34e-0fe7edd79a45": {
-          "type": "category",
-          "settings": {
-            "collection": "golf-gear",
-            "image": "shopify:\/\/shop_images\/golf.jpg",
-            "title": ""
-          }
-        },
-        "3f711607-b2e3-4b6a-9178-1c75c5bb4f2a": {
-          "type": "category",
-          "settings": {
-            "collection": "outdoor-gear",
-            "image": "shopify:\/\/shop_images\/beanie.jpg",
-            "title": ""
-          }
-        },
-        "44d002ce-9640-4d38-b33a-2c101465712a": {
-          "type": "category",
-          "settings": {
-            "collection": "head-gear",
-            "image": "shopify:\/\/shop_images\/Garde_Hat.jpg",
-            "title": ""
-          }
-        }
-      },
-      "block_order": [
-        "6caa338f-fc9c-4623-ba4d-06b24485d56d",
-        "943dc460-92c1-4946-a34e-0fe7edd79a45",
-        "3f711607-b2e3-4b6a-9178-1c75c5bb4f2a",
-        "44d002ce-9640-4d38-b33a-2c101465712a"
-      ],
       "settings": {
       }
     },
     "rich_text": {
       "type": "rich-text",
       "settings": {
-        "title": "Section Heading",
-        "text": "<p>Write your description here<\/p>"
       }
     },
     "image-with-text": {
       "type": "image-with-text",
       "settings": {
-        "title": "Image with Text",
-        "text": "<p>Write your description here<\/p>",
-        "reverse": false
       }
     }
   },
