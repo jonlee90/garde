@@ -7,17 +7,43 @@
     },
     "category-list": {
       "type": "category-list",
+      "blocks": {
+        "e15d53a3-9956-4b59-a09b-17769ce25838": {
+          "type": "category",
+          "settings": {
+            "collection": "head-gear",
+            "image": "shopify:\/\/shop_images\/Garde_Hat.jpg",
+            "title": ""
+          }
+        },
+        "356d98f3-9cd0-43a3-856e-76ef16246440": {
+          "type": "category",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "e15d53a3-9956-4b59-a09b-17769ce25838",
+        "356d98f3-9cd0-43a3-856e-76ef16246440"
+      ],
       "settings": {
       }
     },
     "rich_text": {
       "type": "rich-text",
       "settings": {
+        "title": "Section Heading",
+        "text": "<p>Write your description here<\/p>"
       }
     },
     "image-with-text": {
       "type": "image-with-text",
       "settings": {
+        "title": "Image with Text",
+        "text": "<p>Write your description here<\/p>",
+        "reverse": false
       }
     }
   },
