@@ -7,17 +7,44 @@
     },
     "categories-with-image": {
       "type": "categories-with-image",
+      "blocks": {
+        "9c51fcf0-377b-4812-ac1f-c3704d8531d8": {
+          "type": "category",
+          "settings": {
+            "collection": "camping-gear",
+            "image": "shopify:\/\/shop_images\/beanie.jpg",
+            "title": ""
+          }
+        },
+        "3a0fa3c6-daa9-4fbf-b49c-e7cb38ba3907": {
+          "type": "category",
+          "settings": {
+            "collection": "golf-gear",
+            "image": "shopify:\/\/shop_images\/Garde_Hat.jpg",
+            "title": "Golf"
+          }
+        }
+      },
+      "block_order": [
+        "9c51fcf0-377b-4812-ac1f-c3704d8531d8",
+        "3a0fa3c6-daa9-4fbf-b49c-e7cb38ba3907"
+      ],
       "settings": {
       }
     },
     "rich_text": {
       "type": "rich-text",
       "settings": {
+        "title": "Section Heading",
+        "text": "<p>Write your description here<\/p>"
       }
     },
     "image-with-text": {
       "type": "image-with-text",
       "settings": {
+        "title": "Image with Text",
+        "text": "<p>Write your description here<\/p>",
+        "reverse": false
       }
     }
   },
