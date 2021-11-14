@@ -1,13 +1,14 @@
 <div class="categories-with-image section">
   <div class="category-container">
     {% for block in section.blocks %}
-      <a class="category-link" href="{{ block.settings.collection.url | img_url }}"></a>
+      <a class="category-link" href="{{ block.settings.collection.url | img_url }}">
         <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.title }}">
-        <span>{% if block.settings.title %} 
-              {{ block.settings.title }}
-            {% else %}
-              {{ block.settings.collection.title }}
-            {% endif %}
+        <span>
+          {% if block.settings.title %} 
+            {{ block.settings.title }}
+          {% else %}
+            {{ block.settings.collection.title }}
+          {% endif %}
         </span>
       </a>
     {% endfor %}
