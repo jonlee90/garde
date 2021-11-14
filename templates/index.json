@@ -5,8 +5,8 @@
       "settings": {
       }
     },
-    "categories-with-image": {
-      "type": "categories-with-image",
+    "category-list": {
+      "type": "category-list",
       "settings": {
       }
     },
@@ -23,7 +23,7 @@
   },
   "order": [
     "hero",
-    "categories-with-image",
+    "category-list",
     "rich_text",
     "image-with-text"
   ]
