@@ -4,10 +4,10 @@
       <a class="category-link" href="{{ block.settings.collection.url | img_url }}">
         <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.title }}">
         <span>
-          {% if block.settings.title %} 
-            {{ block.settings.title }}
-          {% else %}
+          {% if block.settings.title == '' %} 
             {{ block.settings.collection.title }}
+          {% else %}
+            {{ block.settings.title }}
           {% endif %}
         </span>
       </a>
