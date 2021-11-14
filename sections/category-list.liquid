@@ -1,4 +1,4 @@
-<div class="categories-with-image section">
+<div class="category-list section">
   <div class="category-container">
     {% for block in section.blocks %}
       <a class="category-link" href="{{ block.settings.collection.url | img_url }}">
@@ -17,7 +17,7 @@
 
 {% schema %}
 {
-  "name": "Categories with Image",
+  "name": "Category List",
   "max_blocks": 4,
   "blocks": [
     {
@@ -45,7 +45,7 @@
   ],
   "presets": [
     {
-      "name": "Categories with Image",
+      "name": "Category List",
       "category": "Image",
       "blocks": [
         {

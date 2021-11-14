@@ -7,44 +7,17 @@
     },
     "categories-with-image": {
       "type": "categories-with-image",
-      "blocks": {
-        "05c4e56c-2bf6-4403-852b-8d5de73fc7d7": {
-          "type": "category",
-          "settings": {
-            "collection": "head-gear",
-            "image": "shopify:\/\/shop_images\/Garde_Hat.jpg",
-            "title": ""
-          }
-        },
-        "fa70076e-238c-4797-9236-46f150633e48": {
-          "type": "category",
-          "settings": {
-            "collection": "camping-gear",
-            "image": "shopify:\/\/shop_images\/beanie.jpg",
-            "title": "Camping"
-          }
-        }
-      },
-      "block_order": [
-        "05c4e56c-2bf6-4403-852b-8d5de73fc7d7",
-        "fa70076e-238c-4797-9236-46f150633e48"
-      ],
       "settings": {
       }
     },
     "rich_text": {
       "type": "rich-text",
       "settings": {
-        "title": "Section Heading",
-        "text": "<p>Write your description here<\/p>"
       }
     },
     "image-with-text": {
       "type": "image-with-text",
       "settings": {
-        "title": "Image with Text",
-        "text": "<p>Write your description here<\/p>",
-        "reverse": false
       }
     }
   },
