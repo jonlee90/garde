@@ -16,7 +16,9 @@
     <!-- {{ 'application.scss.css' | asset_url | stylesheet_tag }} -->
     {{ 'application.scss.css' | asset_url | stylesheet_tag }}
     {{ 'application.js' | asset_url | script_tag }}
-  </head>
+  
+  {% render 'shogun-head' %}
+</head>
   <body>
 
     {% render 'header' %}
